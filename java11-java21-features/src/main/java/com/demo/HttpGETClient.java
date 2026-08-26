@@ -11,7 +11,7 @@ public class HttpGETClient {
         var httpClient=HttpClient.newHttpClient();
 
         var request= HttpRequest.newBuilder()
-                .uri(URI.create("https://jsonplaceholder.typicode.com/posts"))
+                .uri(URI.create("https://jsonplaceholder.typicode.com/posts/101"))
                 .GET()
                 .build();
         var response=httpClient.send(request, HttpResponse.BodyHandlers.ofString());
