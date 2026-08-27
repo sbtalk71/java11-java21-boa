@@ -1,0 +1,6 @@
+1,Ranga, hyderabad,45000
+2, Dinesh, Hyderabad, 67000
+3, Shantanu, Chennai, 89000
+4,Ranga, hyderabad,45000
+5, Dinesh, Hyderabad, 67000
+6, Shantanu, Chennai, 89000
