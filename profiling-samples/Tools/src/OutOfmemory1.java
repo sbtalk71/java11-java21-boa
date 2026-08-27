@@ -9,7 +9,7 @@ public class OutOfmemory1 {
 		for (int i = 0; true; i++) {
 			// WeakReference<Long> ref1= new WeakReference<Long>(new
 			// Long(9999));
-			store.add(new Long(99999));
+			store.add(Long.valueOf(99999));
 			// store.add(ref1);
 			System.out.println("Size= " + store.size() + "loop = " + i);
 			/*
