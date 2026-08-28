@@ -11,8 +11,8 @@ public class Worker implements Runnable{
 
     @Override
     public void run() {
-        synchronized (tablePrinter) {
+        //synchronized (tablePrinter) {
             tablePrinter.printTable(num);
-        }
+       // }
     }
 }
